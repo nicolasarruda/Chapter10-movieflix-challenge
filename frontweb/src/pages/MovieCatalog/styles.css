@@ -1,0 +1,141 @@
+.list-filter-container {
+  padding: 20px 10px 28px 10px;
+  text-decoration: none;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.movie-catalog-card {
+  margin-top: 20px;
+  padding-bottom: 53px;
+  border-radius: 4px;
+}
+
+.movie-catalog-card img {
+  margin-top: 26px;
+  height: 164px;
+  width: 100%;
+}
+
+.movie-catalog-card h1 {
+  margin-top: 11px;
+}
+
+.movie-catalog-card h1,
+a:hover {
+  color: #fff;
+}
+
+.movie-catalog-card h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.movie-catalog-card p {
+  display: none;
+}
+
+.movie-catalog-card h2 {
+  margin-left: 15px;
+}
+
+.movie-catalog-card h1,
+h3 {
+  margin-left: 15px;
+}
+
+.movie-catalog-pagination {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .movie-catalog-card {
+    margin-top: 20px;
+    width: 258px;
+    height: 322px;
+  }
+
+  .movie-catalog-card img {
+    width: 258px;
+    height: 164px;
+  }
+
+  .list-filter-container {
+    padding: 20px 20px 30px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-catalog-card {
+    width: 324px;
+    height: 364px;
+  }
+
+  .movie-catalog-card img {
+    width: 324px;
+    height: 203px;
+    margin-top: 20px;
+  }
+
+  .movie-catalog-card h1 {
+    margin-top: 21px;
+  }
+
+  .list-filter-container {
+    padding: 40px 40px 50px 40px;
+  }
+
+  .movie-catalog-pagination {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .movie-catalog-card {
+    width: 436px;
+    height: 457px;
+    margin-top: 40px;
+  }
+
+  .movie-catalog-card img {
+    width: 436px;
+    height: 274px;
+  }
+
+  .movie-catalog-card h1 {
+    margin-top: 21px;
+  }
+
+  .movie-catalog-card h2 {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list-filter-container {
+    padding: 42px 40px 90px 40px;
+  }
+
+  .movie-catalog-card {
+    width: 258px;
+    height: 322px;
+    margin-top: 40px;
+  }
+
+  .movie-catalog-card img {
+    margin-top: 26px;
+    width: 258px;
+    height: 164px;
+  }
+
+  .movie-catalog-card h1 {
+    margin-top: 11px;
+  }
+
+  .movie-catalog-card h2 {
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,35 @@
+.movie-container:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.movie-content-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.movie-content-container h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.movie-content-container h2 {
+  color: #ffc700;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.movie-content-container h3 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.movie-content-container p {
+  text-decoration: none;
+  color: #9e9e9e;
+  font-size: 16px;
+  text-align: justify;
+}
